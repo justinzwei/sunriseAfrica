@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+}
+.parent {
+	position:relative;
+	display: flex;
+}
+
+object{
+	filter: brightness(80%);
+	height: 100vh;
+}
+
+.container {
+	position: absolute;
+	color: white;
+	padding: 5px 500px 50px 50px;
+	text-align : justify;
+	font-family: Verdana, sans-serif;
+}
+.title {
+	font-size: 70px;
+	padding: 0px;
+	margin: 0px;
+}
+.content{
+	padding: 0px;
+	margin: 0px;
+}
+.content p {
+	line-height: 1.5;
+}
+ul {
+	list-style: none;
+}
+.indent, li{
+	text-indent: 55px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: lightblue;
+}
+
+.info-acc{
+	position: absolute;
+	color: white;
+	text-align : right;
+	padding: 5px 35px 50px 250px;
+	font-family: Verdana, sans-serif;
+}
+
+.info-acc ul{
+	list-style: none;
+	text-align: right;
+	padding: 5px 25px 50px 400px;
+	font-size: normal;
+	line-height: 1.5;
+}
+iframe {
+	height: 75vh;
+	width: 100%;
+	border: 0;
+}
+
+

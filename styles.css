@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|K2D|Rosario|Acme');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	text-align: center;
+	position: relative;
+}
+
+#icon {
+	position: absolute;
+	top: 0;
+	left: 3%;
+	max-width: 80px;
+}
+
+#nav_bar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: #ffc17a;
+	padding: 4vh;
+	z-index: 100;
+	box-shadow: 0 0 3px #ffbd91;
+}
+
+#nav_bar a {
+	font-family: 'Hammersmith One', sans-serif;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px 25px 10px 25px;
+	border-radius: 5px;
+	color: #273147;
+	font-size: 3vh;
+	letter-spacing: 1.5px;
+}
+
+#nav_bar a:hover {
+	color: #360b9b;
+	transition: color 0.5s ease;
+}
+
+#home {
+	background: url(images/7.jpg) no-repeat;
+	background-size: cover;
+	animation: background 40s infinite;
+	margin-top: 60px;
+	text-align: center;
+	height: 100vh;
+}
+
+@keyframes background {
+	0% { background: url(images/7.jpg) no-repeat;
+		background-size: cover; }
+	10% { background: url(images/7.jpg) no-repeat;
+		background-size: cover; }
+	15% { background: url(images/6.jpg) no-repeat;
+		background-size: cover; }
+	25% { background: url(images/6.jpg) no-repeat;
+		background-size: cover; }
+	30% { background: url(images/3.jpg) no-repeat;
+		background-size: cover; }
+	40% { background: url(images/3.jpg) no-repeat;
+		background-size: cover; }
+	45% { background: url(images/14.jpg) no-repeat;
+		background-size: cover; }
+	55% { background: url(images/14.jpg) no-repeat;
+		background-size: cover; }
+	60% { background: url(images/21.jpg) no-repeat;
+		background-size: cover; }
+	70% { background: url(images/21.jpg) no-repeat;
+		background-size: cover; }
+	75% { background: url(images/15.jpg) no-repeat;
+		background-size: cover; }
+	85% { background: url(images/15.jpg) no-repeat;
+		background-size: cover; }
+	90% { background: url(images/7.jpg) no-repeat;
+		background-size: cover; }
+	100% { background: url(images/7.jpg) no-repeat;
+		background-size: cover; }
+}
+
+
+.title {
+	position: relative;
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing: 10px;
+	top: 28%;
+	color: #ffc17a;
+	text-shadow: 0 0 3px #273147;
+}
+
+h3 {
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 150px;
+}
+
+#area p {
+	background: #fffab7;
+	background-size: cover;
+	padding-top: 15vh;
+	padding-bottom: 10vh;
+	font-size: 40px;
+	font-family: 'Hammersmith One', sans-serif;
+	color: #f29354;
+}
+
+#insidearea p {
+	font-family: 'Hammersmith One', sans-serif;
+	padding-top: 25vh;
+	background: none;
+	font-size: 55px;
+	letter-spacing: 3px;
+}
+
+.day{
+	grid-template-columns: repeat(4, 1fr);
+	display: grid;
+	width: 100%;
+}
+.custom {
+	width: 100%;
+	display: grid;
+}
+
+#day, #custom {
+	height: 50vh;
+	display: relative;
+	padding: 40% 40px 20% 40px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Hammersmith One' , sans-serif;
+	font-size: 4vh;
+}
+
+#custom {
+	font-size: 6vh;
+	padding: 8%;
+	height: 40vh;
+	background: url(images/26.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#custom p {
+	font-size: 20px;
+}
+
+#day:hover, #custom:hover {
+	transition: filter 0.5s;
+	transition: text-shadow 0.3s;
+	transition: color: 0.3s;
+	filter: brightness(110%);
+	text-shadow: 0px 0px 15px #7a3404;
+	color: white;
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+	background: orange;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e89127;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #e87a27;
+}
